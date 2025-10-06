@@ -1,0 +1,44 @@
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/texture/galaxy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #1FFEAF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.loading__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.loading__content-progress {
+    margin-top: 20px;
+    font-family: Doubleplus, sans-serif;
+    font-size: 24px;
+    line-height: 20px;
+    color: #1FFEAF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Убедитесь, что Lottie анимация видна */
+.loading__content-loader {
+    width: 200px;
+    height: 200px;
+}
